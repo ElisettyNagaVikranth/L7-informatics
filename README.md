@@ -25,9 +25,10 @@ L7-informatics/
 ## Steps for implementation
 
 ### 1. Clone the Repository
-
+```bash
 git clone https://github.com/ElisettyNagaVikranth/L7-informatics.git
 cd L7-informatics/L7 infromatics
+```
 
 ### 2. Install the Python and the Docker
 
@@ -40,12 +41,15 @@ python Expense.py
 ### 4.Docker Usage
 
 1. Bulid the Docker Image
+   ```bash
    docker build -t expense-tracker .
-
-2. Run the Container
+   ```
+3. Run the Container
+   ```bash
    docker run -it --rm expense-tracker
-
+   ```
 ## File Descriptions
-- Expense.py Main application logic
+
+- Expense.py: Main application logic
 - Dockerfile: Containerizes the app
 
