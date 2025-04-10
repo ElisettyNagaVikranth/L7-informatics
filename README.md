@@ -4,6 +4,12 @@
 
 A simple Python-based command-line expense tracker that allows users to log expenses, set monthly budgets, and view spending summaries. Data is stored in a per-user JSON file and optionally exportable to CSV (soon). You can also run it in a Docker container.
 
+# Project Structure
+L7-informatics/
+├── README.md                      # Project documentation
+├── L7 informatics/                # Main source code folder
+│   ├── Expense.py                 # Core Python script for the expense tracker
+│   └── Dockerfile                      # Docker container configuration
 
 ## Features
 
@@ -20,5 +26,7 @@ A simple Python-based command-line expense tracker that allows users to log expe
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/expense-tracker-cli.git
-cd expense-tracker-cli
+git clone https://github.com/ElisettyNagaVikranth/L7-informatics.git
+cd L7-informatics/L7\ informatics
+
+### 2. Install the Python and the Docker
