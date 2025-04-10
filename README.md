@@ -6,10 +6,10 @@ A simple Python-based command-line expense tracker that allows users to log expe
 
 # Project Structure
 L7-informatics/
-├── README.md                      # Project documentation
-├── L7 informatics/                # Main source code folder
-│   ├── Expense.py                 # Core Python script for the expense tracker
-│   └── Dockerfile                      # Docker container configuration
+├── README.md    
+├── L7 infromatics/          
+│   ├── Expense.py 
+│   └── Dockerfile         
 
 ## Features
 
@@ -27,6 +27,25 @@ L7-informatics/
 ### 1. Clone the Repository
 
 git clone https://github.com/ElisettyNagaVikranth/L7-informatics.git
-cd L7-informatics/L7\ informatics
+cd L7-informatics/L7 infromatics
 
 ### 2. Install the Python and the Docker
+
+install the python 3.8 which is suitable.
+
+### 3. Run the Application
+
+python Expense.py
+
+### 4.Docker Usage
+
+1. Bulid the Docker Image
+   docker build -t expense-tracker .
+
+2. Run the Container
+   docker run -it --rm expense-tracker
+
+## File Descriptions
+- Expense.py Main application logic
+- Dockerfile: Containerizes the app
+
